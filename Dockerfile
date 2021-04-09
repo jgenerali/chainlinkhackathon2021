@@ -1,4 +1,5 @@
 FROM faucet/python3
+
 #Install "ganache" for "brownie console...":
 RUN apk add -U nodejs npm
 RUN npm install -g ganache-cli
@@ -8,4 +9,9 @@ RUN pip3 install web3
 RUN pip3 install eth-brownie
 #Install discord stuff:
 RUN pip3 install discord
+
+COPY chainlink chainlink
+WORKDIR /chainlink
+CMD brownie run scripts/friendly_wager_scripts/bot_main.py --network kovan
+
 

@@ -1,7 +1,7 @@
 #sqlite3 database stuff:
 import sqlite3,os,datetime
 
-conn = sqlite3.connect("bot.db")
+conn = sqlite3.connect("/mnt/bot.db")
 conn.row_factory = sqlite3.Row #https://itheo.nl/get-column-names-from-slqite-python
 
 def createDB():
