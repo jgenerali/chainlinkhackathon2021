@@ -22,7 +22,7 @@ The currently supported bot commands are:
 
 ## 5 minute video demo
 
-[![Watch the video](video_player.png)](video_demo.mp4)
+[![Watch the video](video_player.png)](https://github.com/ivans3/chainlinkhackathon2021/raw/main/video_demo.mp4)
 
 ## Usage:
 ```
