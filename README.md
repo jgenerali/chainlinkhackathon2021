@@ -20,6 +20,10 @@ The currently supported bot commands are:
                           .wagerbot setwallet <wallet_id> - set the wallet id associated with your discord user
 ```
 
+## 5 minute video demo
+
+[![Watch the video](video_player.png)](video_demo.mp4)
+
 ## Usage:
 ```
 docker run -d -e WEB3_INFURA_PROJECT_ID=58610e43REDACTED0e21058d2fb -e PRIVATE_KEY=189c2ab5318bc6b9dREDACTEDb850c59fdf939b7c194c2 -e DISCORD_TOKEN=NzkwMjkxMTQwODA1MDAxMjE3REDACTEDtnD7Rg_OgTAeHUZA -v $PWD:/mnt -it ivans3/wagerbot:latest
@@ -32,5 +36,3 @@ Name | Description
 `WEB3_INFURA_PROJECT_ID` | used to broadcast transactions 
 `PRIVATE_KEY` | used to deploy and fund smart contracts
 
-## 5 Minute Video Demo:
-TODO
