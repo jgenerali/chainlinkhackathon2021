@@ -12,6 +12,7 @@ RUN pip3 install discord
 
 COPY chainlink chainlink
 WORKDIR /chainlink
-CMD brownie run scripts/friendly_wager_scripts/bot_main.py --network kovan
+CMD python3 -u /usr/bin/brownie run scripts/friendly_wager_scripts/bot_main.py --network kovan
+
 
 
